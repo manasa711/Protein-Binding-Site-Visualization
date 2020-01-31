@@ -6,7 +6,8 @@
 
  #### Input:
 
-            The following need to specified as command-line arguments while running the script:
+      The following need to specified as command-line arguments while running the script:
+
                 - path for .pdf format file of a particular protein (-f)
                 - threshold value for calculating and specifying the Euclidean distance between the interface atoms (-t)
                 - Name of the first chain (Should be a single capital alphabet) (-c1)
