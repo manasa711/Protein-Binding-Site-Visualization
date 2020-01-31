@@ -8,10 +8,10 @@
 
       The following need to specified as command-line arguments while running the script:
 
-          * path for .pdf format file of a particular protein (-f)
-          * threshold value for calculating and specifying the Euclidean distance between the interface atoms (-t)
-          * Name of the first chain (Should be a single capital alphabet) (-c1)
-          * Name of the second chain (Should be a single capital alphabet) (-c2)
+        * path for .pdf format file of a particular protein (-f)
+        * threshold value for calculating and specifying the Euclidean distance between the interface atoms (-t)
+        * Name of the first chain (Should be a single capital alphabet) (-c1)
+        * Name of the second chain (Should be a single capital alphabet) (-c2)
 
 **Code Execution:** ./protein_binding_site.py -f <pdb_file> -t <threshold value> -c1 <chain1> -c2 <chain2>
 
