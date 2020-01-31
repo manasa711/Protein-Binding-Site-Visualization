@@ -4,7 +4,7 @@
 
  The interface of interacting protein chains consists of a set of amino acids belonging to the two protein chains within a certain threshold distance. The script calculates the Euclidean distance between the amino acids and determines the interface atoms.
 
- #### Input:
+ **Input**:
 
       The following need to specified as command-line arguments while running the script:
 
@@ -13,6 +13,6 @@
           * Name of the first chain (Should be a single capital alphabet) (-c1)
           * Name of the second chain (Should be a single capital alphabet) (-c2)
 
- #### Code Execution: ./protein_binding_site.py -f <pdb_file> -t <threshold value> -c1 <chain1> -c2 <chain2>
+**Code Execution:** ./protein_binding_site.py -f <pdb_file> -t <threshold value> -c1 <chain1> -c2 <chain2>
 
- #### Example Output for:
+**Example Output for:**
