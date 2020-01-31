@@ -4,7 +4,9 @@
 
  The interface of interacting protein chains consists of a set of amino acids belonging to the two protein chains within a certain threshold distance. The script calculates the Euclidean distance between the amino acids and determines the interface atoms.
 
- #### Input: The following need to specified as command-line arguments while running the script:
+ #### Input:
+
+            The following need to specified as command-line arguments while running the script:
                 - path for .pdf format file of a particular protein (-f)
                 - threshold value for calculating and specifying the Euclidean distance between the interface atoms (-t)
                 - Name of the first chain (Should be a single capital alphabet) (-c1)
